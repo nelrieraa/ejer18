@@ -1,0 +1,20 @@
+{
+  "name": "biblioteca-prestamos",
+  "version": "1.0.0",
+  "description": "Gestión de préstamos para una biblioteca — Node.js + Express + MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.11.5"
+  }
+}
